@@ -1,4 +1,5 @@
 # InterVu.AI
+
 InterVu.AI is an AI-driven tool that helps users prepare for technical interviews. It analyzes user's response and to generate questions, uses speech recognition for mock interviews, and offers real-time feedback. Ideal for job seekers, it sharpens communication skills and boosts confidence through realistic, personalized interview practice.
 
 ---
@@ -13,13 +14,13 @@ Built with Next.js for the user interface and backend logic, Firebase for authen
 
 ## ⚙️ Tech Stack
 
-- **Next.js** - React framework for the frontend and API routes  
-- **Firebase** - Authentication and database  
-- **Tailwind CSS** - For styling  
-- **Vapi AI** - For voice agent integration  
-- **shadcn/ui** - UI component library  
-- **Google Gemini** - AI model for generating questions and feedback  
-- **Zod** - For form validation  
+- **Next.js** - React framework for the frontend and API routes
+- **Firebase** - Authentication and database
+- **Tailwind CSS** - For styling
+- **Vapi AI** - For voice agent integration
+- **shadcn/ui** - UI component library
+- **Google Gemini** - AI model for generating questions and feedback
+- **Zod** - For form validation
 
 ## 🔋 Features
 
@@ -29,35 +30,41 @@ Built with Next.js for the user interface and backend logic, Firebase for authen
 👉 **Modern UI/UX**: Sleek and responsive interface  
 👉 **Interview Page**: Real-time AI interview with transcript  
 👉 **Dashboard**: Track and manage past interviews  
-👉 **Responsive Design**: Seamlessly works across all devices  
+👉 **Responsive Design**: Seamlessly works across all devices
 
 ## 📂 Project Structure
 
-
 ## 🤸 Quick Start
 
-1. Clone the repository  
+1. Clone the repository
+
    ```bash
    git clone https://github.com/Taniya23Y/InterVu.AI.git
    cd Interview-Platform
    ```
 
 2. Install dependencies
+
    ```bash
      npm install
    ```
+
 3. Add environment variables
+
 - Create .env.local and add your Firebase, Vapi, and Gemini credentials.
 
 4. Run the development server
+
    ```bash
      npm run dev
    ```
+
    - Open http://localhost:3000
 
 ---
 
 ## 🧠 How It Works
+
 - Sign up or log in
 - Create an interview
 - Answer AI-generated questions via voice
