@@ -2,5 +2,5 @@
   "version": 3,
   "sources": [],
   "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///E:/AiProject/intervuaiproject/app/%28auth%29/layout.tsx"],"sourcesContent":["import { ReactNode } from \"react\";\r\n\r\nconst AuthLayout = ({ children }: { children: ReactNode }) => {\r\n  return <div className=\"auth-layout\">{children}</div>;\r\n};\r\n\r\nexport default AuthLayout;\r\n"],"names":[],"mappings":";;;;;AAEA,MAAM,aAAa,CAAC,EAAE,QAAQ,EAA2B;IACvD,qBAAO,8OAAC;QAAI,WAAU;kBAAe;;;;;;AACvC;uCAEe","debugId":null}}]
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://E%3A/AiProject/intervuaiproject/app/%28auth%29/layout.tsx"],"sourcesContent":["import { ReactNode } from \"react\";\n\nconst AuthLayout = ({ children }: { children: ReactNode }) => {\n  return (\n    <div className=\" bg-[#C0FE04] min-h-screen rounded-md m-1\">\n      <div className=\"auth-layout\"> {children}</div>\n    </div>\n  );\n};\n\nexport default AuthLayout;\n"],"names":[],"mappings":";;;;;AAEA,MAAM,aAAa,CAAC,EAAE,QAAQ,EAA2B;IACvD,qBACE,8OAAC;QAAI,WAAU;kBACb,cAAA,8OAAC;YAAI,WAAU;;gBAAc;gBAAE;;;;;;;;;;;;AAGrC;uCAEe","debugId":null}}]
 }
